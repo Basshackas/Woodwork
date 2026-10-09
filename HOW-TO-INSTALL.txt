@@ -1,14 +1,17 @@
-TADESSE FURNITURE - installable app (PWA)
+TADESSE FURNITURE - works offline
 
-1. Put ALL files in this folder on a free HTTPS web host, for example:
-   - Netlify Drop: open app.netlify.com/drop and drag this whole folder in
-   - or GitHub Pages / Cloudflare Pages
-   The host gives you a web link that starts with https://
-2. On the phone, open that link in Chrome.
-3. Tap the Install app button on the first screen (or the three-dot menu, then Install app / Add to Home screen).
-4. Enter the install code from the owner, then create a PIN for that phone.
+EASIEST (no website needed)
+1. Unzip this folder on your phone (Files app, long press the zip, Extract).
+2. Open index.html in Chrome (long press it, Open with, Chrome).
+3. Enter the install code, then create a PIN. After that the app works with no internet.
+   Your data is kept on this phone only. Use Settings > Backup now often.
+
+AS A HOME-SCREEN APP (needs one free web upload)
+1. Upload ALL files in this folder to a free HTTPS host (Netlify Drop, GitHub Pages, Cloudflare Pages).
+2. Open the web link in Chrome on the phone, tap Install app.
+3. Enter the install code, create a PIN. It then opens like a normal app and works offline.
 
 Notes
 - The app and its data are encrypted inside these files. A copy sent by Xender is unreadable without the install code.
-- Each phone keeps its own data. Use Settings > Backup now to save a backup to Google Drive or email, and Restore from file on another phone.
+- Each phone keeps its own data. To move data to another phone: Settings > Backup now on the old phone, then Settings > Restore from a backup on the new phone.
 - Keep the install code secret. Never put it in this folder.
