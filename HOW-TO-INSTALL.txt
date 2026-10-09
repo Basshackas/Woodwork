@@ -1,17 +1,22 @@
-TADESSE FURNITURE - works offline
+TADESSE FURNITURE - works offline, locks itself
 
 EASIEST (no website needed)
 1. Unzip this folder on your phone (Files app, long press the zip, Extract).
 2. Open index.html in Chrome (long press it, Open with, Chrome).
 3. Enter the install code, then create a PIN. After that the app works with no internet.
    Your data is kept on this phone only. Use Settings > Backup now often.
+   Note: opened this way, Android shows the name "Chrome" in the recent-apps list.
 
-AS A HOME-SCREEN APP (needs one free web upload)
-1. Upload ALL files in this folder to a free HTTPS host (Netlify Drop, GitHub Pages, Cloudflare Pages).
+AS A REAL APP WITH ITS OWN NAME AND ICON (needs one free web upload)
+1. Upload ALL files in this folder to a free HTTPS host (GitHub Pages, Netlify Drop, Cloudflare Pages).
 2. Open the web link in Chrome on the phone, tap Install app.
-3. Enter the install code, create a PIN. It then opens like a normal app and works offline.
+3. Enter the install code, create a PIN. It opens like a normal app, shows "Tadesse Furniture" in the
+   recent-apps list, and works offline.
+
+Auto-lock: the app locks after 2 minutes without use (change it in Settings > Auto-lock).
+You then need your PIN to open it again.
 
 Notes
 - The app and its data are encrypted inside these files. A copy sent by Xender is unreadable without the install code.
-- Each phone keeps its own data. To move data to another phone: Settings > Backup now on the old phone, then Settings > Restore from a backup on the new phone.
+- To move data to another phone: Settings > Backup now on the old phone, then Settings > Restore from a backup on the new phone.
 - Keep the install code secret. Never put it in this folder.
